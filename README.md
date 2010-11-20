@@ -10,7 +10,7 @@ is able to handle lists.
     foo bar
     blah blubb lorem ipsom okay okay
     
-    * this is some very nice listing you got here
+    * this is some very nice listing you've got here
     * oh god,
             my indentation is wrong
     
@@ -25,7 +25,7 @@ Becomes:
     okay
     
     * this is some very nice listing
-      you got here
+      you've got here
     * oh god, my indentation is wrong
     
     As I said:
@@ -38,5 +38,5 @@ Becomes:
 It can be used without Redcar:
 
     require 'aligner'
-    Alginer.align File.read("README"), 80
+    Aligner.align File.read("README"), 80
 
